@@ -1,0 +1,11 @@
+Package: LRBase.Mmu.eg.db
+Title: Ligand-Receptor list for Mus musculus (Mmu, Mouse, Taxonomy ID: 10090)
+Description: Contains the LRBaseDb object to access data from several related annotation packages.
+Version: 2.0.0
+Author: Koki Tsuyuzaki
+Maintainer: Koki Tsuyuzaki <k.t.the-answer@hotmail.co.jp>
+Depends: R (>= 3.5.0), LRBaseDbi
+Imports: RSQLite
+Suggests: RUnit, BiocGenerics
+License: Artistic-2.0
+biocViews: AnnotationData, FunctionalAnnotation
